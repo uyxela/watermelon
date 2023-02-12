@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-SemiBold.ttf);
+    font-weight: 600;
+}
+
+html, body {
+    width: 400px;
+    height: 550px;
+}
+
+p, h1, h2, h3, h4, h5, a {
+    font-family: Quicksand;
+}
+
+.bottom-nav-button {
+    cursor: pointer;
+}
+
+.bottom-nav-button:hover {
+    background-color: #bebebe;
+    transition: 0.5s;
+}
