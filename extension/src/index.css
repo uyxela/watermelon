@@ -52,6 +52,7 @@ time, mark, audio, video {
 html, body {
     width: 400px;
     height: 550px;
+    background: linear-gradient(153.59deg, #FAD9D9 9.09%, #EAFFE9 94.77%);
 }
 
 p, h1, h2, h3, h4, h5, a {
